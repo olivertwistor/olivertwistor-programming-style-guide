@@ -15,6 +15,10 @@ I also happen to love to read style guides and documentation. :smile:
 
 * [Who is this for?](#who-is-this-for)
 * [Usage](#usage)
+    * [Syntax in template files](#syntax-in-template-files)
+        * [Verbatim sections](#verbatim-sections)
+        * [Descriptions](#descriptions)
+        * [Instructions](#instructions)
 * [Licensing](#licensing)
 * [How to contribute](#how-to-contribute)
 * [Versioning](#versioning)
@@ -36,13 +40,31 @@ the documents and divided into programming languages, which is handy if you
 would only be interested in the style guide for a particular programming 
 language.
 
-## Licensing
-Every text document in this repository is licensed under a [Creative Commons 
-Attribution 4.0 International][7] license, which you can find a copy of in the 
-file [LICENSE-CC][8].
+### Syntax in template files
+To show which sections are meant to be preserved verbatim, which sections are meant as descriptions of what you should write yourself and which sections are instructions on how to read and write, different syntax for these sections will be used.
 
-All source code (both whole files and code snippets) is licensed under an 
-MIT License, which you can find a copy of in the file [LICENSE-MIT][5].
+Sections that are meant as descriptions will be prepended with `WRITE YOURSELF: `. For example:
+
+    WRITE YOURSELF: Here you should write a warm greeting.
+
+Sections that are meant to be preserved verbatim will not have anything prepended or in any other way have any additional markers. For example:
+
+    The open source community should be a welcoming place to all.
+    
+In case this syntax isn't possible (for example, in case of a sentence or a word meant as description in the middle of a section meant to be preserved verbatim, the more explicit `(WRITE YOURSELF) ... (/WRITE YOURSELF)`  
+
+#### Verbatim sections
+
+#### Descriptions
+
+#### Instructions
+
+## Licensing
+Every text document in this repository is licensed under a Creative Commons 
+Attribution 4.0 International license. All source code (both whole files and 
+code snippets) is licensed under an MIT License.
+
+You can find copies of both licenses in the file [LICENSE][5].
 
 ## How to contribute
 If you want to contribute to this project, please read the file 
@@ -56,8 +78,6 @@ all changes to this project can be read in the file [CHANGELOG.md][9].
 [1]: https://github.com/olivertwistor/olivertwistor-programming-style-guide
 [2]: https://github.com/olivertwistor/olivertwistor-programming-style-guide/releases
 [4]: CONTRIBUTING.md
-[5]: LICENSE-MIT
+[5]: LICENSE
 [6]: https://semver.org/
-[7]: https://creativecommons.org/licenses/by/4.0/legalcode
-[8]: LICENSE-CC
 [9]: CHANGELOG.md
