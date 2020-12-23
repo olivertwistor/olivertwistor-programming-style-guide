@@ -3,14 +3,8 @@ This is a style guide for all my programming projects. It includes styles for
 code and documentation, as well as various inspections and templates for the 
 IDE's I'm using.
 
-## Table of contents
-
 * [Installation](#installation)
 * [Usage](#usage)
-    * [Syntax in template files](#syntax-in-template-files)
-        * [Verbatim sections](#verbatim-sections)
-        * [Descriptions](#descriptions)
-        * [Instructions](#instructions)
 * [Licensing](#licensing)
 
 ## Installation
