@@ -1,0 +1,20 @@
+<root>
+    <item name='java.sql.Connection java.sql.PreparedStatement prepareStatement(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NonNls'/>
+    </item>
+    <item name='java.sql.Connection java.sql.PreparedStatement prepareStatement(java.lang.String, int)'>
+        <annotation name='org.jetbrains.annotations.NonNls'/>
+    </item>
+    <item name='java.sql.ResultSet boolean getBoolean(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NonNls'/>
+    </item>
+    <item name='java.sql.ResultSet int getInt(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NonNls'/>
+    </item>
+    <item name='java.sql.ResultSet java.lang.String getString(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NonNls'/>
+    </item>
+    <item name='java.sql.Statement java.sql.ResultSet executeQuery(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NonNls'/>
+    </item>
+</root>
