@@ -1,0 +1,14 @@
+<code_scheme name="code-style" version="173">
+  <option name="RIGHT_MARGIN" value="80" />
+  <option name="SOFT_MARGINS" value="80" />
+  <CssCodeStyleSettings>
+    <option name="BRACE_PLACEMENT" value="1" />
+  </CssCodeStyleSettings>
+  <PHPCodeStyleSettings>
+    <option name="NAMESPACE_BRACE_STYLE" value="2" />
+  </PHPCodeStyleSettings>
+  <codeStyleSettings language="PHP">
+    <option name="BRACE_STYLE" value="2" />
+    <option name="LAMBDA_BRACE_STYLE" value="2" />
+  </codeStyleSettings>
+</code_scheme>
