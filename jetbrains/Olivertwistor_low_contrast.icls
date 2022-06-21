@@ -1,0 +1,17 @@
+<scheme name="Olivertwistor low contrast" version="142" parent_scheme="Default">
+  <metaInfo>
+    <property name="created">2022-01-22T01:02:04</property>
+    <property name="ide">idea</property>
+    <property name="ideVersion">2021.3.1.0.0</property>
+    <property name="modified">2022-01-22T01:03:34</property>
+    <property name="originalScheme">Olivertwistor low contrast</property>
+  </metaInfo>
+  <attributes>
+    <option name="TEXT">
+      <value>
+        <option name="FOREGROUND" value="f0f0f" />
+        <option name="BACKGROUND" value="f0f0f0" />
+      </value>
+    </option>
+  </attributes>
+</scheme>

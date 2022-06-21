@@ -1,5 +1,17 @@
 <profile version="1.0">
   <option name="myName" value="inspections" />
+  <option name="scopesOrder">
+    <list>
+      <option value="Source code" />
+      <option value="Markdown" />
+      <option value="License files" />
+      <option value="All Changed Files" />
+      <option value="Default Changelist" />
+      <option value="Open Files" />
+      <option value="Project Files" />
+      <option value="Scratches and Consoles" />
+    </list>
+  </option>
   <inspection_tool class="AlphaUnsortedPropertiesFile" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AngularCliAddDependency" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AngularInaccessibleComponentMemberInAotMode" enabled="true" level="ERROR" enabled_by_default="true" />
@@ -94,13 +106,7 @@
   <inspection_tool class="DocumentWriteJS" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="DuplicateConditionJS" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="DuplicateKeyInSection" enabled="true" level="ERROR" enabled_by_default="true" />
-  <inspection_tool class="DuplicatePropertyInspection" enabled="true" level="ERROR" enabled_by_default="true">
-    <option name="CURRENT_FILE" value="true" />
-    <option name="MODULE_WITH_DEPENDENCIES" value="false" />
-    <option name="CHECK_DUPLICATE_VALUES" value="true" />
-    <option name="CHECK_DUPLICATE_KEYS" value="true" />
-    <option name="CHECK_DUPLICATE_KEYS_WITH_DIFFERENT_VALUES" value="true" />
-  </inspection_tool>
+  <inspection_tool class="DuplicatePropertyInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="DuplicateSectionInFile" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="DuplicatedBlockNamesInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="DuplicatedCode" enabled="true" level="ERROR" enabled_by_default="true" />
@@ -166,7 +172,9 @@
   <inspection_tool class="FunctionWithInconsistentReturnsJS" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="FunctionWithMultipleLoopsJS" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="FunctionWithMultipleReturnPointsJS" enabled="true" level="ERROR" enabled_by_default="true" />
-  <inspection_tool class="GrazieInspection" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="GrazieInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <scope name="License files" level="WEAK WARNING" enabled="false" />
+  </inspection_tool>
   <inspection_tool class="HamlNestedTagContent" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="HtmlDeprecatedAttribute" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="HtmlDeprecatedTag" enabled="true" level="ERROR" enabled_by_default="true" />
@@ -308,7 +316,9 @@
     <option name="m_minLength" value="1" />
     <option name="m_maxLength" value="32" />
   </inspection_tool>
-  <inspection_tool class="LongLine" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="LongLine" enabled="true" level="WARNING" enabled_by_default="true">
+    <scope name="Markdown" level="WARNING" enabled="false" />
+  </inspection_tool>
   <inspection_tool class="LoopStatementThatDoesntLoopJS" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="LossyEncoding" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="MagicNumberJS" enabled="true" level="ERROR" enabled_by_default="true" />
@@ -383,12 +393,13 @@
   <inspection_tool class="PyClassHasNoInitInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="PyClassicStyleClassInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="PyComparisonWithNoneInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-  <inspection_tool class="PyCompatibilityInspection" enabled="true" level="ERROR" enabled_by_default="true">
+  <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ourVersions">
       <value>
-        <list size="2">
-          <item index="0" class="java.lang.String" itemvalue="2.7" />
-          <item index="1" class="java.lang.String" itemvalue="3.10" />
+        <list size="3">
+          <item index="0" class="java.lang.String" itemvalue="3.7" />
+          <item index="1" class="java.lang.String" itemvalue="3.8" />
+          <item index="2" class="java.lang.String" itemvalue="3.9" />
         </list>
       </value>
     </option>
@@ -407,7 +418,6 @@
   <inspection_tool class="PyFromFutureImportInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="PyGlobalUndefinedInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="PyInconsistentIndentationInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-  <inspection_tool class="PyIncorrectDocstringInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="PyInitNewSignatureInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="PyInterpreterInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="PyListCreationInspection" enabled="true" level="ERROR" enabled_by_default="true" />
@@ -417,7 +427,7 @@
   <inspection_tool class="PyMethodOverridingInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="PyMethodParametersInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="PyMissingConstructorInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-  <inspection_tool class="PyMissingOrEmptyDocstringInspection" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="PyMissingOrEmptyDocstringInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="PyMissingTypeHintsInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="PyNamedTupleInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="PyNestedDecoratorsInspection" enabled="true" level="ERROR" enabled_by_default="true" />
@@ -432,14 +442,12 @@
       </value>
     </option>
   </inspection_tool>
-  <inspection_tool class="PyPep8Inspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="PyPep8NamingInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="PyPropertyAccessInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="PyPropertyDefinitionInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="PyProtectedMemberInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="PyProtocolInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="PyRedeclarationInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-  <inspection_tool class="PyRedundantParenthesesInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="PyRelativeImportInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="PyReturnFromInitInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="PySetFunctionToLiteralInspection" enabled="true" level="ERROR" enabled_by_default="true" />
@@ -501,11 +509,6 @@
   <inspection_tool class="SassScssUnresolvedVariable" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="ShiftOutOfRangeJS" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="SillyAssignmentJS" enabled="true" level="ERROR" enabled_by_default="true" />
-  <inspection_tool class="SpellCheckingInspection" enabled="true" level="ERROR" enabled_by_default="true">
-    <option name="processCode" value="true" />
-    <option name="processLiterals" value="true" />
-    <option name="processComments" value="true" />
-  </inspection_tool>
   <inspection_tool class="SqlAddNotNullColumnInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="SqlAggregatesInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="SqlAmbiguousColumnInspection" enabled="true" level="ERROR" enabled_by_default="true" />
@@ -567,7 +570,7 @@
   <inspection_tool class="ThisExpressionReferencesGlobalObjectJS" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="ThreeNegationsPerFunctionJS" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="ThrowFromFinallyBlockJS" enabled="true" level="ERROR" enabled_by_default="true" />
-  <inspection_tool class="TodoComment" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="TodoComment" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="TrailingSpacesInProperty" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="TrivialConditionalJS" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="TrivialIfJS" enabled="true" level="ERROR" enabled_by_default="true" />
@@ -617,7 +620,4 @@
   <inspection_tool class="YAMLSchemaDeprecation" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="YAMLSchemaValidation" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="YAMLUnusedAnchor" enabled="true" level="ERROR" enabled_by_default="true" />
-  <inspection_tool class="requirements.DuplicatedInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-  <inspection_tool class="requirements.InstalledPackageInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-  <inspection_tool class="requirements.UnusedInspection" enabled="true" level="ERROR" enabled_by_default="true" />
 </profile>
