@@ -1,6 +1,5 @@
 # Folder structure for PHP projects
-I use [Composer][1] for all my PHP projects. I also follow [PSR-4][2], and 
-thus structure my folders according to Composer's and PSR-4's standards. 
+I use [Composer](https://getcomposer.org/) for all my PHP projects. I also follow [PSR-4](https://www.php-fig.org/psr/psr-4/), and thus structure my folders according to Composer's and PSR-4's standards. 
 
 | Folder | Contents
 | :-- | :--
@@ -12,7 +11,3 @@ thus structure my folders according to Composer's and PSR-4's standards.
 `/src` | Source code.
 `/tests` | Source code and resources for tests.
 `/vendor` | Generated files from Composer.
-
-
-[1]: https://getcomposer.org/
-[2]: https://www.php-fig.org/psr/psr-4/
