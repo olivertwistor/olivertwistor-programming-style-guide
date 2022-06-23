@@ -1,6 +1,5 @@
 # Folder structure for Java projects
-I use [Maven][1] for all my Java projects. Therefore, for the most part I'm 
-using Maven's default folder structure.
+I use [Maven](https://maven.apache.org/) for all my Java projects. Therefore, for the most part I'm using Maven's default folder structure.
 
 | Folder | Contents
 | :-- | :--
@@ -12,6 +11,3 @@ using Maven's default folder structure.
 `/src/tests/java` | Source code for tests.
 `/src/tests/resources` | Resources for tests, such as config files, databases and images.
 `/target` | Generated files from build processes etc.
-
-
-[1]: https://maven.apache.org/

@@ -1,7 +1,7 @@
 # Network diagram
 
-| Task | Name                                              | Release | Dependencies |
-| ---: | :------------------------------------------------ | :------ | -----------: |
-|   16 | Follow the project model                          | 1.1.0   |              |
-|   17 | For websites and webapps, add SCSS file structure | 1.2.0   |              |
+| Issue | Name                                              | Priority[^1]   | Dependencies |
+| ----: | :------------------------------------------------ | :------------- | -----------: |
+|    17 | For websites and webapps, add SCSS file structure | 4 new features |              |
 
+[^1]: Priorities from highest to lowest: 1 bugs; 2 existing features; 3 documentation; 4 new features; 5 code style.
