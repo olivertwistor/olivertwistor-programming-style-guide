@@ -1,5 +1,9 @@
 # Olivertwistor Programming Style Guide
-This is a style guide for all my programming projects. It includes styles for code and documentation, as well as various inspections and templates for the IDE's I'm using.#licensing)
+This is a style guide for all my programming projects. It includes styles for code and documentation, as well as various inspections and templates for the IDE's I'm using.
+
+## Archived repository
+
+This repository is archived. Future development is continued in the [repository of my company's design system](https://github.com/jn-programutveckling/design-system). See you all there!
 
 ## Installation
 You can either read all the documents in this repository [online on GitHub](https://github.com/olivertwistor/olivertwistor-programming-style-guide ) or [download them for offline use](https://github.com/olivertwistor/olivertwistor-programming-style-guide/releases).
